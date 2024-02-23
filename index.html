@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<!-- https://replit.com/@nyjc-computing/HTML-CSS-Intro -->
+
+<head>
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        body {
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body <!--style="background-color:powderblue;" -->>
+    <header>
+        <ul id="menu" class="shadow" style="">
+            <li>
+                <a href="#about" class="navlink">About</a>
+            </li>
+            <li>
+                <a href="#experience" class="navlink">Experience</a>
+            </li>
+            <li>
+                <a href="#education" class="navlink">Education</a>
+            </li>
+            <li>
+                <a href="#projects" class="navlink">Projects</a>
+            </li>
+            <li>
+                <a href="#skills" class="navlink">Skills</a>
+            </li>
+            <li>
+                <a href="#contact" class="navlink">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1 style="text-align:center;">Hong Zhao</h1>
+            <h2 style="text-align:center; font-size:150%; color:black;" class>Student</h2>
+            
+
+            <a href="#education"> Jump to Education</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <h2 style="text-align:center;">About Me</h2>
+                </div>
+                <div>
+                    <p>
+                        I am receptive to feedback and am open to discussions. Although I stuggle to understand concepts first introduced, I am not afraid to ask for help from the tutors or amongst my peers. I am keen to topics related to computing and hence am willing to delve deeper into topics taught and apply them. I perform best when I am confident and more prepared. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="education">
+        <h2 class="heading" style="text-align:center;">Education</h2>
+        <div class="education-block">
+            <h3>Victoria School</h3>
+            <span class="education-date">January 2019 - October 2022</span>
+            <h4>O level Certificate</h4>
+            <table class="table">
+                <tr>
+                    <th>Subjects</th>
+                    <th>Results</th>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>B4</td>
+                </tr>
+                <tr>
+                    <td>Mathematics</td>
+                    <td>A2</td>
+                </tr>
+                <tr>
+                    <td>Additional-Mathematics</td>
+                    <td>B3</td>
+                </tr>
+                <tr>
+                    <td>Physics</td>
+                    <td>B3</td>
+                </tr>
+                <tr>
+                    <td>Chemistry</td>
+                    <td>A2</td>
+                </tr>
+                <tr>
+                    <td>History/Social-Studies</td>
+                    <td>A1</td>
+                </tr>
+            </table>
+            <table class="table">
+                <tr>
+                    <th>L1R5</th>
+                    <th>raw</th>
+                    <th>net</th>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td>15</td>
+                    <td>13</td>
+                </tr>
+            </table>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Nanyang Junior College</h3>
+            <span class="education-date">Feb 2023 - Ongoing</span>
+            <p>
+                Currently studying in Nanyang Junior College under the Cambridge A-level Programme.
+            </p>
+            <span style="color:red;">Currently studying the subjects listed below</span>
+            <p></p>
+            <table style="border:2px solid black;">
+                <tr>
+                    <th>Subjects</th>
+                    <th>Level</th>
+                </tr>
+                <tr>
+                    <td>Genral Paper</td>
+                    <td>H1</td>
+                </tr>
+                <tr>
+                    <td>Mathematics</td>
+                    <td>H2</td>
+                </tr>
+                <tr>
+                    <td>Computing</td>
+                    <td>H2</td>
+                </tr>
+                <tr>
+                    <td>Physics</td>
+                    <td>H2</td>
+                </tr>
+                <tr>
+                    <td>Economics</td>
+                    <td>H1</td>
+                </tr>
+            </table>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading" style="text-align:center;">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="September 2015 – September 2016">
+                <h3>Nanyang Junior College</h3>
+                <h4 class="job-title" style="font-size:220%;">Student</h4>
+                <p>
+                    In the process of hiring but technically already hired by the school to work together with classmates in order to create a web application to allow each student of the school to be able to edit their CCA membership and participation as well as allow them to access these records for easy reference and submission.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading" style="text-align:center;">Projects</h2>
+        <div class="project-info">
+            <h3 style="color:black;">Post-Apocalyptic NYJC</h3>
+            <p>
+                A text-based MUD (multi-user dungeon) game with an     overarching theme related to the school I
+                attended, in a dystopian world consisting of various     locations in the school as well as known
+                head figures in the school. The aim was to retrieve their A level result slip by defeating the
+                principle. I worked as the Quality Assurance Manager where my role was to ensure all code
+                runs smoothly without errors.
+            </p>
+        </div>
+        <!-- End .project-info -->
+        
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Summary_project_.png" />
+                        <img src="images/test.py_summary_project_.png" />
+                    </div>
+                    <!-- End .project-image -->
+                        
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul style="font-family:Georgia" style="color:darkblue;">
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>   
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="/contact">
+                <input type="hidden" name="_subject" value="" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2023 Lim Hong Zhao
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/" target="_blank"><i class="fa fa-github"
+                                    aria-hidden="true">GitHub</i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow"
+                                    aria-hidden="true">Stack Overflow</i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin"
+                                    aria-hidden="true">Linked-In</i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"
+                                    aria-hidden="true">Facebook</i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"
+                                    aria-hidden="true">Twitter</i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="btn-rounded-white">Download Resume</a>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
